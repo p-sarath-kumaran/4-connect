@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: url("Images/connect_wall.webp");
+    background-size: cover;
+}
+#board{
+    height: 500px;
+    width: 560px;
+    background-color: rgb(183, 100, 100);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.cir{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+.cir:hover{
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+#resetButton{
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
